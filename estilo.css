@@ -1,0 +1,97 @@
+*{
+		margin: 0px;
+	padding: 0px;
+
+}
+body{
+	background: 	DarkGray;
+	font-family: Arial, helvetica, sans-serif;
+	
+}
+
+header{
+     background:DimGray;
+     height:100px;
+	 width: 100%;
+	 text-align:center;
+	 line-height:100px;
+	 color:	white;
+	 border-bottom: 3px dashed;
+	 font-family:cambria bold;
+	 font-size:300%;
+}
+.blue {
+  color:DeepSkyBlue;
+}
+
+.pink {
+  color: Magenta;
+}
+
+.yellowgreen {
+  color: yellowgreen;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .menu{
+      list-style: none;
+      padding: 0;
+      background: #092327;
+	  width: 400%;
+	  max-width:1910px;
+      margin: auto;
+
+	  
+  }	  
+	  
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 9px; 
+    display: block;	
+	
+}	
+
+.menu li{
+     display: inline-block;
+     text-align: center;	 
+}	
+
+.menu li a:hover{
+   background: #ef8354;	
+}
+
+nav{
+	background:SlateGray;
+	height: 50px;
+	border:1px solid black;
+}
+nav ul{
+    list-style-type: none; 
+}
+nav li{
+    display: inline; 
+}
+
+.clearfix{
+	clear:both;
+}
+#contenido{
+	float:left;
+	width: 80%;
+	min-height: 1500px;
+	background:LightCyan;
+	padding: 10px;
+}
+#articulo1{
+	color:ForestGreen;
+}
+#articulo2{
+	font-family:calibri;
+	font-size: 15px;
+	color:orage;
+}
